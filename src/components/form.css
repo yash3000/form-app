@@ -1,0 +1,35 @@
+.main-page{
+    margin: 2rem 1rem 1rem;
+}
+
+.data-table{
+    margin-top: 2rem;
+}
+
+.full-page-modal {
+  width: calc(100% - 40px) !important;
+  height: calc(100% - 40px) !important;
+  margin: 20px auto !important;
+  padding: 0 !important;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.full-page-modal .ant-modal-content {
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+}
+
+.ant-modal-header{
+    margin-top: 50px;
+}
+
+.ant-modal-header, .ant-modal-body {
+    max-width: 512px;
+    margin-inline: auto;
+}
+
+.submit-button{
+    float: right;
+}
